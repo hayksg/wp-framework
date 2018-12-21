@@ -14,8 +14,9 @@
 
         <h3><i class="fas fa-bullhorn"></i> Attention</h3>
         <ol>
-            <li>Run "npm i" and copy "fonts" folder to wordpress root <br>(in order to make font-awesome to work correctly)</li>
-            <li>Go to Settings/Permalinks/Permalink Settings, switch to Post name</li>
+            <li>Run "npm i" and copy "fonts" folder to wordpress root</li> <!-- in order to make font-awesome to work correctly -->
+            <li>Go to Settings/Permalinks/Permalink Settings, switch to "Post name"</li>
+            <li>Lastly "npm run watch"</li>
         </ol>
         <hr>
 
