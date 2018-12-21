@@ -12,11 +12,11 @@
 
     <div class="col-md-8">
 
-        <h3><i class="fas fa-bullhorn"></i> Attention</h3>
+        <h3><i class="fas fa-cog"></i> Setting Up</h3>
         <ol>
-            <li>Run "npm i" and copy "fonts" folder to wordpress root</li> <!-- in order to make font-awesome to work correctly -->
-            <li>Go to Settings/Permalinks/Permalink Settings, switch to "Post name"</li>
-            <li>Lastly "npm run watch"</li>
+            <li>Go to Settings/Permalinks/Permalink Settings -> Common Settings, switch to "Post name".</li>
+            <li>Run "npm i" from theme root.</li>
+            <li>Lastly run "npm run watch" and copy "fonts" folder from dist to wordpress root.</li> <!-- in order to make font-awesome to work correctly -->
         </ol>
         <hr>
 
