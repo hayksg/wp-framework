@@ -12,12 +12,15 @@
     </div> <!-- end main-content from header.php -->
 
     <footer class="footer">
+    
+        <!--
         <hr>
         
         <div class="container">
-            <!-- Load sidebar-footer.php -->
             <?php get_sidebar( 'footer' ); ?>
         </div>
+
+        -->
        
         <hr>
 

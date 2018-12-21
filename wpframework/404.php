@@ -14,7 +14,7 @@
         
         <h1><?php _e( 'Error 404 - Nothing Found', 'wp-framework' ) ?></h1>
 
-        <p><?php _e( 'It looks like nothink was found here. Maybe try a search?', 'wp-framework' ) ?></p>
+        <p><?php _e( 'It looks like nothing was found here. Maybe try a search?', 'wp-framework' ) ?></p>
 
         <p><?php get_search_form(); ?></p>
 

@@ -29,6 +29,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
      
+                <!--
                 <?php 
                     wp_nav_menu( array(
                         'theme_location'  => 'main-menu',
@@ -38,6 +39,7 @@
                         'walker'          => new Bootstrap_NavWalker,
                     ) ); 
                 ?>
+                -->
 
                 <?php get_search_form(); ?>
                 
@@ -47,5 +49,3 @@
 
     <div class="container main-content" role="main">
         <div class="row">
-
-        
