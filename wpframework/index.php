@@ -12,7 +12,7 @@
 
     <div class="col-md-8">
 
-    <h6> <i class="fas fa-arrow-up"></i> Run "npm i" and copy "fonts" folder to wordpress root(for font-awesome correct work) </h6>
+    <h6> <i class="fas fa-arrow-up"></i> Run "npm i" and copy "fonts" folder to wordpress root <br>(in order to make font-awesome to work correctly) </h6>
     <h6> <i class="fas fa-arrow-down"></i> FooBar </h6>
 
         <?php if ( have_posts() ) : ?>
