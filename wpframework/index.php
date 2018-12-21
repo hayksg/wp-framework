@@ -12,8 +12,12 @@
 
     <div class="col-md-8">
 
-    <h6> <i class="fas fa-arrow-up"></i> Run "npm i" and copy "fonts" folder to wordpress root <br>(in order to make font-awesome to work correctly) </h6>
-    <h6> <i class="fas fa-arrow-down"></i> FooBar </h6>
+        <h3><i class="fas fa-bullhorn"></i> Attention</h3>
+        <ol>
+            <li>Run "npm i" and copy "fonts" folder to wordpress root <br>(in order to make font-awesome to work correctly)</li>
+            <li>Go to Settings/Permalinks/Permalinks Settings switch to Post name</li>
+        </ol>
+        <hr>
 
         <?php if ( have_posts() ) : ?>
 
