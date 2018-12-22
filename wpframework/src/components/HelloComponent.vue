@@ -1,5 +1,5 @@
 <template>
-    <div class="text-danger">
+    <div class="title-color">
         <h5>{{ title }}</h5>
     </div>
 </template>
@@ -8,12 +8,14 @@
 export default {
     data () {
         return {
-            title: 'Hi from vue component'
+            title: 'Hello from vue component'
         }
     }
 }
 </script>
 
 <style scoped>
-
+    .title-color {
+        color: #41B883;
+    }
 </style>

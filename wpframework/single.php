@@ -12,10 +12,6 @@
 
 <div class="col-md-8">
 
-    <div id="vue-code">
-        <hello></hello>
-    </div>
-
     <?php while (have_posts()): the_post();?>
 
         <?php get_template_part( 'templates/content', get_post_format() ); ?>

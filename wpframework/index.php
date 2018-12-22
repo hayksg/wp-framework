@@ -12,12 +12,18 @@
 
     <div class="col-md-8">
 
-        <h3><i class="fas fa-cog"></i> Setting Up</h3>
+        <h4><i class="fas fa-cog"></i> Setting Up</h4>
         <ol>
             <li>Go to Settings/Permalinks/Permalink Settings -> Common Settings, switch to "Post name".</li>
             <li>Run "npm i" from theme root.</li>
             <li>Lastly run "npm run watch" and copy "fonts" folder from dist to wordpress root.</li> <!-- in order to make font-awesome to work correctly -->
         </ol>
+        <hr>
+
+        <h4><i class="fab fa-vuejs" style="color: #34495E;"></i> Using VueJS</h4>
+        <div id="vue-code">
+            <hello></hello>
+        </div>
         <hr>
 
         <?php if ( have_posts() ) : ?>
