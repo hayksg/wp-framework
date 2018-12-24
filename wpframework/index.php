@@ -22,7 +22,7 @@
 
         <h4><i class="fab fa-vuejs" style="color: #34495E;"></i> Using VueJS</h4>
         <div id="vue-code">
-            <hello></hello>
+            <vue-message message="Hello from Vue component"></vue-message>
         </div>
         <hr>
 
